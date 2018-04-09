@@ -5,7 +5,7 @@ http://www.cryptic.bg
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2017-2018 Crypticcoin Developers
+Copyright (c) 2017-2018 Cryptic Developers
 
 
 What is Cryptic?
@@ -47,7 +47,7 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/Slambambam/cryptic/tags) are created
+completely stable. [Tags](https://github.com/CrypticCoin/cryptic/tags) are created
 regularly to indicate new official, stable release versions of Cryptic.
 
 Testing
@@ -74,5 +74,4 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     ./cryptic-qt_test
 
 # Cryptic
-# Cryptic
-# Cryptic
+
