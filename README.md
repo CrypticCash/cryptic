@@ -10,7 +10,6 @@ Copyright (c) 2017-2018 Cryptic Developers
 
 What is Cryptic?
 ----------------
-
 Cryptic is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 2.5 minute block targets
  - subsidy halves in 840k blocks (~4 years)
@@ -18,7 +17,7 @@ Cryptic is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
 
 The rest is the same as Bitcoin.
  - 50 coins per block
- - 2018 blocks to retarget difficulty
+ - 2017 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
 the Cryptic client sofware, see http://www.crypticcash.org
