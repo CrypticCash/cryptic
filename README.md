@@ -1,7 +1,7 @@
 Cryptic integration/staging tree
 ================================
 
-http://www.cryptic.bg
+http://www.crypticcash.org
 
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
@@ -21,7 +21,7 @@ The rest is the same as Bitcoin.
  - 2018 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Cryptic client sofware, see http://www.cryptic.bg
+the Cryptic client sofware, see http://www.crypticcash.org
 
 License
 -------
@@ -73,5 +73,5 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     make -f Makefile.test
     ./cryptic-qt_test
 
-# Cryptic
+
 
