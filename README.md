@@ -1,4 +1,4 @@
-Cryptic integration/staging tree
+Cryptic Cash integration/staging tree
 ================================
 
 http://www.crypticcash.org
