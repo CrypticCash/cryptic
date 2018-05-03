@@ -8,7 +8,7 @@ Copyright (c) 2011-2014 Litecoin Developers
 Copyright (c) 2017-2018 Cryptic Developers
 
 
-What is Cryptic?
+What is Cryptic Cash?
 ----------------
 Cryptic is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 2.5 minute block targets
@@ -20,7 +20,7 @@ The rest is the same as Bitcoin.
  - 2017 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the Cryptic client sofware, see http://www.crypticcash.org
+the Cryptic Cash client sofware, see http://www.crypticcash.org
 
 License
 -------
