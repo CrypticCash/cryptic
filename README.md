@@ -1,5 +1,5 @@
 
-Cryptic Cash - Decentralized Cryptocurrency for daily payments
+Cryptic Cash - Decentralized Cryptocurrency
 ================================
 
 http://www.crypticcash.org
