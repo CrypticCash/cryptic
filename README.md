@@ -1,4 +1,6 @@
+
 Cryptic Cash integration/staging tree
+Cryptic Cash - Decentralized Cryptocurrency for daily payments
 ================================
 
 http://www.crypticcash.org
@@ -19,8 +21,7 @@ The rest is the same as Bitcoin.
  - 50 coins per block
  - 2017 blocks to retarget difficulty
 
-For more information, as well as an immediately useable, binary version of
-the Cryptic Cash client sofware, see http://www.crypticcash.org
+For more information, as well as an immediately usable, binary version of the Cryptic Cash client software, see http://www.crypticcash.org
 
 License
 -------
