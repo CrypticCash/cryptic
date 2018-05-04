@@ -1,5 +1,4 @@
 
-Cryptic Cash integration/staging tree
 Cryptic Cash - Decentralized Cryptocurrency for daily payments
 ================================
 
