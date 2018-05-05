@@ -20,7 +20,7 @@ packages:
 - "libpng12-dev"
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
-- "url": "https://github.com/CrypticCoin/cryptic.git"
+- "url": "https://github.com/CrypticCash/cryptic.git"
   "dir": "cryptic"
 files:
 - "miniupnpc-1.9.20140401.tar.gz"
