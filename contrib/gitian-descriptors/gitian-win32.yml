@@ -14,8 +14,7 @@ packages:
 reference_datetime: "2011-01-30 00:00:00"
 remotes:
 - "url": "https://github.com/CrypticCash/cryptic.git"
-  "dir": "cryptic"
- 
+  "dir": "cryptic" 
 files:
 - "qt-win32-4.8.5-gitian-r8.zip"
 - "boost-win32-1.55.0-gitian-r6.zip"
