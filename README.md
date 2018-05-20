@@ -18,7 +18,7 @@ Cryptic is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
 
 The rest is the same as Bitcoin.
  - 50 coins per block
- - 2017 blocks to retarget difficulty
+ - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately usable, binary version of the Cryptic Cash client software, see http://www.crypticcash.org
 
