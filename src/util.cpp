@@ -90,7 +90,7 @@ bool fCachedPath[2] = {false, false};
 static CCriticalSection** ppmutexOpenSSL;
 void locking_callback(int mode, int i, const char* file, int line)
 {
-    if (mode & CRYPPTO_LOCK) {
+    if (mode & CRYPTO_LOCK) {
         ENTER_CRITICAL_SECTION(*ppmutexOpenSSL[i]);
     } else {
         LEAVE_CRITICAL_SECTION(*ppmutexOpenSSL[i]);
@@ -106,10 +106,10 @@ public:
     CInit()
     {
         // Init OpenSSL library multithreading support
-        ppmutexOpenSSL = (CCriticalSection**)OPENSSL_malloc(CRYPPTO_num_locks() * sizeof(CCriticalSection*));
-        for (int i = 0; i < CRYPPTO_num_locks(); i++)
+        ppmutexOpenSSL = (CCriticalSection**)OPENSSL_malloc(CRYPTO_num_locks() * sizeof(CCriticalSection*));
+        for (int i = 0; i < CRYPTO_num_locks(); i++)
             ppmutexOpenSSL[i] = new CCriticalSection();
-        CRYPPTO_set_locking_callback(locking_callback);
+        CRYPTO_set_locking_callback(locking_callback);
 
 #ifdef WIN32
         // Seed random number generator with screen scrape and other hardware sources
@@ -122,8 +122,8 @@ public:
     ~CInit()
     {
         // Shutdown OpenSSL library multithreading support
-        CRYPPTO_set_locking_callback(NULL);
-        for (int i = 0; i < CRYPPTO_num_locks(); i++)
+        CRYPTO_set_locking_callback(NULL);
+        for (int i = 0; i < CRYPTO_num_locks(); i++)
             delete ppmutexOpenSSL[i];
         OPENSSL_free(ppmutexOpenSSL);
     }

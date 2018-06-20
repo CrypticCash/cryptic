@@ -16,7 +16,7 @@ BOOST_AUTO_TEST_CASE(scrypt_hashtest)
 #endif
     uint256 scrypthash;
     std::vector<unsigned char> inputbytes;
-    char scratchpad[SCRYPPT_SCRATCHPAD_SIZE];
+    char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
     for (int i = 0; i < HASHCOUNT; i++) {
         inputbytes = ParseHex(inputhex[i]);
 #if defined(USE_SSE2)
