@@ -324,6 +324,6 @@ void scrypt_detect_sse2()
 
 void scrypt_1024_1_1_256(const char *input, char *output)
 {
-	char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
+	char scratchpad[SCRYPPT_SCRATCHPAD_SIZE];
     scrypt_1024_1_1_256_sp(input, output, scratchpad);
 }

@@ -2808,7 +2808,7 @@ if (false && block.GetHash() != hashGenesisBlock)
             // creating a different genesis block:
             uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
             uint256 thash;
-            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
+            char scratchpad[SCRYPPT_SCRATCHPAD_SIZE];
 
             loop
             {
@@ -4667,7 +4667,7 @@ void static CrypticMiner(CWallet *pwallet)
             unsigned int nHashesDone = 0;
 
             uint256 thash;
-            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
+            char scratchpad[SCRYPPT_SCRATCHPAD_SIZE];
             loop
             {
                 scrypt_1024_1_1_256_sp(BEGIN(pblock->nVersion), BEGIN(thash), scratchpad);
